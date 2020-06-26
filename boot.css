@@ -1,0 +1,52 @@
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+}
+.row.content {height: 450px}
+.sidenav {
+    padding-top: 20px;
+    background-color: #f1f1f1;
+    height: 100%;
+}
+
+footer {
+    background-color: #2E4E4E;
+    color: white;
+    padding: 15px;
+}
+
+@media screen and (max-width: 600px) {
+    .sidenav {
+        height: auto;
+        padding: 15px;
+    }
+    .row.content {height:auto;}
+}
+.container{
+    margin-top:0px;
+    margin-bottom: 0;
+    background-color: #ABD6E4;
+    width: auto;
+    height: 100px;
+
+}
+.col-sm-6{
+
+    padding:20px 100px;
+    background-color:lightgrey;
+
+    margin-top:0px;
+    height: 450px;
+}
+.col-sm-3{
+    padding:20px 20px;
+    background-color:#CBCBCB;
+
+    margin-top:0px;
+}
+container-fluid{
+    padding-top: 0px;
+}
+.container-fluid{
+    margin: 0;
+}
