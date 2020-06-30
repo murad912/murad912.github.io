@@ -12,3 +12,8 @@ function multiply(t,a){
 function reverse(s){
     return s.split('').reverse().join('')
 }
+
+function filteredArray(arr, i ){
+    return newArr = arr.subarray(i);
+}
+
