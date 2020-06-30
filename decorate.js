@@ -54,12 +54,12 @@ function bling(){
     }
 }
 
-function PigLatin() {
+function PigLatin(searchString, position) {
 
-    let vowels = [a,e,i,o,u];
+    let vowels = ["a","e","i","o","u"];
     let b = document.getElementById("ta").innerHTML.split(" ");
     for(a in b){
-        if(b[a].startsWith("a","e","i","o","u")){
+        if(b[a].startsWith("a", "e", "i", "o", "u")){
             b[a] += "ay";
         }
         else {

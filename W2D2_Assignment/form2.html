@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap.css">
+    <style>
+        .title {
+            margin-top: 20px;
+            margin-left: 100px;
+            margin-right: 100px;
+            margin-bottom: 10px;
+        }
+        #btn {
+            float : right;
+
+        }
+    </style>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <a class="navbar-brand" href="#">MUM Golden Dome Market:::SRM System </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarColor01">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">|  Products  |<span class="sr-only">(current)</span></a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#">|  Suppliers  |</a>
+            </li>
+        </ul>
+        <div class="form-inline my-2 my-lg-0">
+            <div><h4 style="color: white">Hello!</h4></div><pre>  </pre>
+            <button class="btn btn-secondary my-2 my-sm-0" type="submit">Sign Out</button>
+        </div>
+    </div>
+</nav>
+<h1 class="title" >New Prodcut Form</h1>
+<form  class="title">
+    <div class="row">
+        <div class="col">
+            Product Number
+            <input type="text" class="form-control" required>
+        </div>
+        <div class="col">
+            Quantity in Stock
+            <input type="text" class="form-control" placeholder="0" required>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="row">
+
+        <div class="col">
+            Name
+            <input type="text" class="form-control" required>
+        </div>
+        <div class="col">
+            supplier
+            <label for="exampleSelect1">Example select</label >
+            <select class="form-control" id="exampleSelect1" >
+                <option selected>select a supplier</option>
+                <option>Shop 2</option>
+                <option>Shop 3</option>
+                <option>Shop 4</option>
+                <option>Shop 5</option>
+            </select>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="row">
+
+        <div class="col">
+            Unit Price
+            <input type="text" class="form-control" placeholder="0.0">
+        </div>
+        <div class="col">
+            Date Supplied
+            <input type="text" class="form-control" placeholder="yyyy-mm-dd">
+            <small>Enter a valid date</small>
+        </div>
+    </div>
+    <div id="btn">
+        <button style="margin: 10px" type="button" class="btn btn-outline-primary">Reset</button>
+        <button style="margin: 10px" type="button" class="btn btn-outline-warning">Cancel</button>
+        <button style="margin: 10px" type="submit" class="btn btn-outline-info">Add Product</button>
+    </div>
+</form>
+
+
+</body>
+</html>
