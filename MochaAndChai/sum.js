@@ -9,3 +9,6 @@ function sum(t,a) {
 function multiply(t,a){
     return t * a;
 }
+function reverse(s){
+    return s.split('').reverse().join('')
+}
