@@ -1,6 +1,6 @@
 describe('Sum numbers', function () {
     it('should return sum of arguments', function () {
-        chai.expect(sum(1, 2)).to.equal(3);
+        chai.expect(sum(1, 2)).to.equal(3);reverse
     });
 });
 
@@ -12,7 +12,7 @@ describe('Multiply numbers', function () {
 
 describe('Reverese a String', function () {
     it('reversed string must match sample string', function () {
-        chai.expect(reverse("murad")).to.equal("darum");
+        chai.expect(("murad")).to.equal("darum");
     });
 });
 
